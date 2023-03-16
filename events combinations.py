@@ -5,5 +5,5 @@ currency = str(input('Write your currency: '))
 
 combinations = events * pow(varieties, events)
 
-print('\nAmount of combinations: ', combinations)
-print('\nRequired amount: ', combinations * bet, currency)
+print('\nAmount of combinations: ', "{:,}".format(combinations).replace(",", "."))
+print('\nRequired amount: ', "{:,}".format(combinations * bet).replace(",", "."), currency)
