@@ -1,7 +1,7 @@
 events = int(input('\nAmount of events: '))
 varieties = int(input('Amount of results in each event: '))
 bet = int(input('Bet amount: '))
-currency = str(input('Write your currency: '))
+currency = str(input('Your currency: '))
 
 combinations = events * pow(varieties, events)
 
